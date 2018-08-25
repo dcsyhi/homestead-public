@@ -449,6 +449,7 @@ class ComposerStaticInitd7c62d4feb40b2392d3554d10a93d45b
         'Composer\\Semver\\Constraint\\MultiConstraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/MultiConstraint.php',
         'Composer\\Semver\\Semver' => __DIR__ . '/..' . '/composer/semver/src/Semver.php',
         'Composer\\Semver\\VersionParser' => __DIR__ . '/..' . '/composer/semver/src/VersionParser.php',
+        'Composer\\XdebugHandler\\PhpConfig' => __DIR__ . '/..' . '/composer/xdebug-handler/src/PhpConfig.php',
         'Composer\\XdebugHandler\\Process' => __DIR__ . '/..' . '/composer/xdebug-handler/src/Process.php',
         'Composer\\XdebugHandler\\Status' => __DIR__ . '/..' . '/composer/xdebug-handler/src/Status.php',
         'Composer\\XdebugHandler\\XdebugHandler' => __DIR__ . '/..' . '/composer/xdebug-handler/src/XdebugHandler.php',

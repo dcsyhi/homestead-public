@@ -81,6 +81,7 @@ return array(
     'Composer\\Semver\\Constraint\\MultiConstraint' => $vendorDir . '/composer/semver/src/Constraint/MultiConstraint.php',
     'Composer\\Semver\\Semver' => $vendorDir . '/composer/semver/src/Semver.php',
     'Composer\\Semver\\VersionParser' => $vendorDir . '/composer/semver/src/VersionParser.php',
+    'Composer\\XdebugHandler\\PhpConfig' => $vendorDir . '/composer/xdebug-handler/src/PhpConfig.php',
     'Composer\\XdebugHandler\\Process' => $vendorDir . '/composer/xdebug-handler/src/Process.php',
     'Composer\\XdebugHandler\\Status' => $vendorDir . '/composer/xdebug-handler/src/Status.php',
     'Composer\\XdebugHandler\\XdebugHandler' => $vendorDir . '/composer/xdebug-handler/src/XdebugHandler.php',

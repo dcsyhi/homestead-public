@@ -46,7 +46,7 @@ or with specified version:
 
 .. code-block:: bash
 
-    $ wget https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases/download/v2.12.2/php-cs-fixer.phar -O php-cs-fixer
+    $ wget https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases/download/v2.12.3/php-cs-fixer.phar -O php-cs-fixer
 
 or with curl:
 
@@ -1381,7 +1381,7 @@ Choose from the list of available rules:
 
 * **phpdoc_no_empty_return** [@Symfony]
 
-  ``@return`` void and ``@return null`` annotations should be omitted from
+  ``@return void`` and ``@return null`` annotations should be omitted from
   PHPDoc.
 
 * **phpdoc_no_package** [@Symfony]
@@ -1745,7 +1745,7 @@ Config file
 
 Instead of using command line options to customize the rule, you can save the
 project configuration in a ``.php_cs.dist`` file in the root directory of your project.
-The file must return an instance of `PhpCsFixer\\ConfigInterface <https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/v2.12.2/src/ConfigInterface.php>`_
+The file must return an instance of `PhpCsFixer\\ConfigInterface <https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/v2.12.3/src/ConfigInterface.php>`_
 which lets you configure the rules, the files and directories that
 need to be analyzed. You may also create ``.php_cs`` file, which is
 the local configuration that will be used instead of the project configuration. It
